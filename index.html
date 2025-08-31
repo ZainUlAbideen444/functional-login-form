@@ -12,16 +12,26 @@
     <form id="form">
         <h1> LOGIN FORM</h1>
         <BR></BR>
-<input type="text" placeholder="USERNAME" id="usr">
-<br> <br>
-<input type="email" placeholder="EMAIL" id="em">
-<br> <br>
-<input type="password" placeholder="PASSWORD" id="psw">
-<br> <br>
+<input type="text" placeholder="USERNAME" id="usr" required>
+
+<p id="usreror" class="eror">INVALID USERNAME</p>
+
+
+<input type="email" placeholder="EMAIL" id="em" required>
+
+<p id="emeror" class="eror">INVALID EMAIL</p>
+
+<input type="password" placeholder="PASSWORD" id="psw" required>
+
+<p id="psweror" class="eror">INVALID PASSWORD</p>
+<br>
 <button id="btn"> SUBMIT</button>
-<br> <br>
+
 <a href=""  id="lnk">Forgot Your Password?</a>
+<H5 id="sukses">LOGIN SUCCESSFUL</H5>
 </form>
+
+
 
     <script src="script.js"></script>
 </body>

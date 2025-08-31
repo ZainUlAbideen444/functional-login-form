@@ -29,6 +29,9 @@ input {
    border-radius: 9%;
    text-align: center;
    border: 3px solid rgba(88, 80, 80, 0.975);
+   margin: 13px;
+   color: white;
+  
 }
 
 input:focus {
@@ -41,6 +44,7 @@ input:focus {
   display: block;
   margin: 0 auto;
   text-align: center;
+  padding: 20px;
 }
 
 #btn{
@@ -49,6 +53,8 @@ input:focus {
     background-color: aqua;
     font-weight: bolder;
     border-radius: 15%;
+    
+
 }
 
 #lnk{
@@ -57,3 +63,30 @@ input:focus {
 
 }
 
+.eror{
+    color: red;
+   
+    display: none;
+}
+
+#sukses{
+color: green;
+
+font-weight: bolder;
+font-size: larger;
+display: none;
+}
+
+form {
+    border: 1px solid yellow;
+    box-shadow: rgba(253, 228, 1, 0.96) inset; 
+    height: 450px;
+    width: 440px;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+form input {
+    display: block;
+    margin: 10px auto;
+}
